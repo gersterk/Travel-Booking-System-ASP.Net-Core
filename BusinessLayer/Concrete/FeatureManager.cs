@@ -9,36 +9,37 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    public class DestinationManager : IDestinationService
+    public class FeatureManager : IFeatureService
     {
-        IDestinationDal _destinationDal;
+        IFeatureDal _featureDal;
 
-        public DestinationManager(IDestinationDal destinationDal)
+        public FeatureManager(IFeatureDal featureDal)
         {
-            _destinationDal = destinationDal;
+            _featureDal = featureDal;
         }
 
-        public Destination GetByID(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void TAdd(Destination t)
+        public Feature GetByID(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void TDelete(Destination t)
+        public void TAdd(Feature t)
         {
             throw new NotImplementedException();
         }
 
-        public List<Destination> TGetList()
+        public void TDelete(Feature t)
         {
-            return _destinationDal.GetList();
+            throw new NotImplementedException();
         }
 
-        public void TUpdate(Destination t)
+        public List<Feature> TGetList()
+        {
+            return _featureDal.GetList();
+
+        }
+
+        public void TUpdate(Feature t)
         {
             throw new NotImplementedException();
         }

@@ -21,13 +21,12 @@ namespace DataAccessLayer.Repository
 
         }
 
-        public List<T> GetLsit()
+        public List<T> GetList()
         {
             using var c = new Context();
             return c.Set<T>().ToList();
-
-
         }
+
 
         public void Insert(T t)
         {
