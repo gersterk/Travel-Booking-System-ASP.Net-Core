@@ -5,16 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Inherits IGENERICDAL
+
 namespace DataAccessLayer.Abstract
-{ 
-    //For CRUD processes sake, I will assign some methods for deleting, updating, add and so on.
-  
-    public interface IGuideDal
+{
+    
+    public interface IGuideDal : IGenericDal<Guide>
     {
-        void Insert(Guide guide);
-        void Update(Guide guide);
-        void Delete(Guide guide);
-        List<Guide> GetList();
+
 
 
     }

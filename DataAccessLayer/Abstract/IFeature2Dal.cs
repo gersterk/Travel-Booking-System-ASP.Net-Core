@@ -5,12 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//Inherits IGENERICDAL
-
 namespace DataAccessLayer.Abstract
 {
-    public interface IDestinationDal : IGenericDal<Destination>
+    public interface IFeature2Dal : IGenericDal <Feature2>
     {
-
     }
 }
