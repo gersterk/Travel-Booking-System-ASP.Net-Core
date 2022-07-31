@@ -161,3 +161,4 @@ C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0
 C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\LayoutPartial\_ScriptPartial.cshtml.g.cs
 C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Shared\Components\_SliderPartial\Default.cshtml.g.cs
 C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Shared\Components\_PopularDestinations\Default.cshtml.g.cs
+C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Shared\Components\_Statistics\Default.cshtml.g.cs
