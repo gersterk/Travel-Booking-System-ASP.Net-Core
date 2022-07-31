@@ -11,5 +11,9 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfAboutDal : GenericRepository<About>, IAboutDal
     {
+        public List<About> GetList()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
