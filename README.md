@@ -9,5 +9,5 @@ DYNAMIC AND IMMERSIVE TRAVEL FRIEND
 -Can book a vacation.
 
 
--Model-View-Controller and N Tier architecture have used to buid.
+-Model-View-Controller and N Tier architecture have been used to buid.
 - 
