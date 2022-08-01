@@ -11,8 +11,7 @@ namespace Travel_Blog_Core.ViewComponents.Default
         public IViewComponentResult Invoke()
         {
             var values = featureManager.TGetList();
-
-            return View();
+            return View(values);
 
         }
     }
