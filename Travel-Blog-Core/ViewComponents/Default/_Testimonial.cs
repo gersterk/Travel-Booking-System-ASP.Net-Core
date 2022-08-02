@@ -6,10 +6,13 @@ namespace Travel_Blog_Core.ViewComponents.Default
 {
     public class _Testimonial : ViewComponent
     {
-       
+        TestimonialManager testimonialManager = new TestimonialManager( new EfTestimonialDal());
+
         public IViewComponentResult Invoke()
         {
-            return View();  
+            var values = testimonialManager.TGetList();
+
+            return View(values);  
         }
     }
 }

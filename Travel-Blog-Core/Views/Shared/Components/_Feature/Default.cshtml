@@ -31,11 +31,11 @@
                     <div class="maghny-gd-1 col-6">
                         <div class="maghny-grid">
                             <figure class="effect-lily border-radius">
-                                <img class="img-fluid" src="@Model.FirstOrDefault().Post1Image" alt="" />
+                                <img class="img-fluid" src="@Model[i].Post1Image" alt="" />
                                 <figcaption>
                                     <div>
-                                        <h4>@Model.FirstOrDefault().Post1Name</h4>
-                                        <p>From @Model.FirstOrDefault().Post1Description € </p>
+                                        <h4>@Model[i].Post1Name</h4>
+                                        <p>From @Model[i].Post1Description € </p>
                                     </div>
 
                                 </figcaption>
