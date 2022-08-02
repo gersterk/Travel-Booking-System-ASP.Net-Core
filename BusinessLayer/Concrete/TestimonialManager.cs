@@ -1,4 +1,5 @@
-﻿using DataAccessLayer.Abstract;
+﻿using BusinessLayer.Abstract;
+using DataAccessLayer.Abstract;
 using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -8,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    public class TestimonialManager : ITestimonialSerivce
+    public class TestimonialManager : ITestimonialService
     {
         ITestimonialDal _testimonialDal;
 
         public TestimonialManager(ITestimonialDal testimonialDal)
         {
-            _testimonialDal = testimonialDal;  
+            _testimonialDal = testimonialDal;
         }
 
         public Testimonial GetByID(int id)
@@ -42,6 +43,6 @@ namespace BusinessLayer.Concrete
         {
             throw new NotImplementedException();
         }
-    
-}
+    }
+
 }
