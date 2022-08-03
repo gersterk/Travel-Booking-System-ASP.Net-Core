@@ -11,7 +11,7 @@
 <body>
   <section class="w3l-about-breadcrumb text-left">
     <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
-      <div class="container">
+      <div class="container"> 
         <h2 class="title">Destination Glance</h2>
         <ul class="breadcrumbs-custom-path mt-2">
           <li><a href="/Default/Index/">Home</a></li>
@@ -258,39 +258,6 @@
      </div>
      </section>
 
-
-  <script src="~/Traversal-Liberty/assets/js/jquery-3.3.1.min.js"></script>
-  <script src="~/Traversal-Liberty/assets/js/theme-change.js"></script>
-  <!--/MENU-JS-->
-  <script>
-    $(window).on("scroll", function () {
-      var scroll = $(window).scrollTop();
-
-      if (scroll >= 80) {
-        $("#site-header").addClass("nav-fixed");
-      } else {
-        $("#site-header").removeClass("nav-fixed");
-      }
-    });
-
-    //Main navigation Active Class Add Remove
-    $(".navbar-toggler").on("click", function () {
-      $("header").toggleClass("active");
-    });
-    $(document).on("ready", function () {
-      if ($(window).width() > 991) {
-        $("header").removeClass("active");
-      }
-      $(window).on("resize", function () {
-        if ($(window).width() > 991) {
-          $("header").removeClass("active");
-        }
-      });
-    });
-  </script>
-  <!--//MENU-JS-->
-
-  <script src="~/Traversal-Liberty/assets/js/bootstrap.min.js"></script>
 
 </body>
 
