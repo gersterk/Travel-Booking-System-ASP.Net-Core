@@ -12,7 +12,7 @@ namespace Travel_Blog_Core.Controllers
         {
             var values = destinationManager.TGetList();
 
-            return View();
+            return View(values);
         }
     }
 }

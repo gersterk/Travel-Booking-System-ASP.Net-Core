@@ -1,9 +1,10 @@
-﻿@model List<Destination>
+﻿@using EntityLayer.Concrete
+@model List<Destination>
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
-  <!-- //Destinations VIEW INDEX -->
 
 <body>
 
@@ -12,7 +13,7 @@
       <div class="container">
         <h2 class="title">Destinations </h2>
         <ul class="breadcrumbs-custom-path mt-2">
-          <li><a href="#url">Home</a></li>
+          <li><a href="#Default/Index/">Home</a></li>
           <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Destinations </li>
         </ul>
       </div>
@@ -25,20 +26,24 @@
       <div class="container">
           <h3 class="hny-title mb-5">Destinations</h3>
           <div class="row">
+
                     @foreach(var item in Model)
-                    {    
+                    {
+
                     <div class="col-lg-4 col-md-4 col-6">
                   <div class="column">
                       <a href="blog-single.html"><img src="@item.Image" alt="" class="img-fluid"></a>
-                      <div class="info"> 
+                      <div class="info">
                           <h4><a href="blog-single.html">@item.City</a></h4>
                           <p>@item.DayNight </p>
                           <div class="dst-btm">
                             <h6 class="">Start From </h6>
-                            <span>@item.Price</span>
+                            <span>@item.Price €</span>
                           </div>
                       </div>
+                      
                   </div>
+                  
               </div>
               }
           </div>
