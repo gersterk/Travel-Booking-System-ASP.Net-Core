@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Travel_Blog_Core.Controllers
@@ -13,6 +14,18 @@ namespace Travel_Blog_Core.Controllers
             var values = destinationManager.TGetList();
 
             return View(values);
+        }
+
+        public IActionResult DestinationDetails(int id)
+        {
+            return View();
+
+        }
+        [HttpPost]
+        public IActionResult DestinationDetails(Destination p)
+        {
+            return View();
+
         }
     }
 }
