@@ -26,8 +26,15 @@ using Travel_Blog_Core.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\Views\_ViewImports.cshtml"
+using EntityLayer.Concrete;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9faeedb613d2481926dddfbb2970d5b3266d82d1", @"/Views/Shared/Components/_SliderPartial/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"29b88e3a1e86ba7767245dcf55fdedd2a2c95543", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"095a4c245f3b6871b137e76482bfa214d07060d4", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Components__SliderPartial_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -85,9 +92,9 @@ using Travel_Blog_Core.Models;
               <h6 class=""mb-3"">Discover your next adventure</h6>
               <div class=""flex-wrap search-wthree-field mt-md-5 mt-4"">
                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d17444", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d17641", async() => {
                 WriteLiteral("\r\n                  <div class=\"row book-form\">\r\n                    <div class=\"form-input col-md-4 mt-md-0 mt-3\">\r\n\r\n                      <select name=\"selectpicker\" class=\"selectpicker\">\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d17932", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d18129", async() => {
                     WriteLiteral("Destinaion");
                 }
                 );
@@ -103,7 +110,7 @@ using Travel_Blog_Core.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d19183", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d19380", async() => {
                     WriteLiteral("Colombia");
                 }
                 );
@@ -119,7 +126,7 @@ using Travel_Blog_Core.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d110432", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d110629", async() => {
                     WriteLiteral("Chile");
                 }
                 );
@@ -135,7 +142,7 @@ using Travel_Blog_Core.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d111679", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d111876", async() => {
                     WriteLiteral("Argentina");
                 }
                 );
@@ -151,7 +158,7 @@ using Travel_Blog_Core.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d112930", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d113127", async() => {
                     WriteLiteral("Peru");
                 }
                 );
@@ -167,7 +174,7 @@ using Travel_Blog_Core.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d114176", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d114373", async() => {
                     WriteLiteral("Turkiye");
                 }
                 );
@@ -183,7 +190,7 @@ using Travel_Blog_Core.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d115425", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d115622", async() => {
                     WriteLiteral("United States");
                 }
                 );
@@ -199,7 +206,7 @@ using Travel_Blog_Core.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d116680", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d116877", async() => {
                     WriteLiteral("Laos");
                 }
                 );
@@ -215,7 +222,7 @@ using Travel_Blog_Core.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d117926", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d118123", async() => {
                     WriteLiteral("Tunusia");
                 }
                 );
@@ -231,7 +238,7 @@ using Travel_Blog_Core.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d119175", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9faeedb613d2481926dddfbb2970d5b3266d82d119372", async() => {
                     WriteLiteral("Madagascar");
                 }
                 );
