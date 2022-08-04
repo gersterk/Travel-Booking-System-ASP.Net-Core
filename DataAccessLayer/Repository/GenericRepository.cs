@@ -21,6 +21,14 @@ namespace DataAccessLayer.Repository
 
         }
 
+        public T GetByID(int id)
+        {
+            using var c= new Context();
+            return c.Set<T>().Find(id);
+            //will find the id and pass to the Business Layer
+
+        }
+
         public List<T> GetList()
         {
             using var c = new Context();

@@ -18,7 +18,10 @@ namespace Travel_Blog_Core.Controllers
 
         public IActionResult DestinationDetails(int id)
         {
-            return View();
+            var values = destinationManager.TGetByID(id);
+            
+
+            return View(values);
 
         }
         [HttpPost]

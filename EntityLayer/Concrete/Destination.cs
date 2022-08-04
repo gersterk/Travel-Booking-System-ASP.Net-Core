@@ -20,6 +20,17 @@ namespace EntityLayer.Concrete
         public bool Status { get; set; }
         //To do not delete through the solution every moment--helps to just passivate 
 
+        public string CoverImage { get; set; }
+        //Destinations coverimage
+        public string Details1 { get; set; }
+        //there too much sections of descriptions so I will divide them into more than one.
+        public string Details2 { get; set; }
+        //I guess that will make it more useful
+        public string Image2 { get; set; }
+        //Image of Descriptions
+
+
+
 
 
 
