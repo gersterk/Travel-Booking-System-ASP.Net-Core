@@ -29,6 +29,9 @@ namespace EntityLayer.Concrete
         public string Image2 { get; set; }
         //Image of Descriptions
 
+        public List<Comment> Comments { get; set; }
+        //That property relates the Comments to Destinations.
+        //Because each destination will have its comments seperately...
 
 
 
