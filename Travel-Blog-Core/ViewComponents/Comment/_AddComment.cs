@@ -7,9 +7,9 @@ namespace Travel_Blog_Core.ViewComponents.Comment
 {
     public class _AddComment : ViewComponent
     {
-        CommentManager commentManager = new CommentManager(new EfCommentDal());
+        //CommentManager commentManager = new CommentManager(new EfCommentDal());
 
-        [HttpGet]
+       // [HttpGet]
         public IViewComponentResult Invoke()
         {
             
@@ -17,16 +17,16 @@ namespace Travel_Blog_Core.ViewComponents.Comment
 
         }
 
-        [HttpPost]
-        public IViewComponentResult Invoke(EntityLayer.Concrete.Comment p)
-        {
-            p.CommentDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
-            p.CommentState = true;
+        //[HttpPost]
+        //public IViewComponentResult Invoke(EntityLayer.Concrete.Comment p)
+        //{
+        //    p.CommentDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
+        //    p.CommentState = true;
 
-            commentManager.TAdd(p);
+        //    commentManager.TAdd(p);
 
-            return View();        
-        }
+        //    return View();        
+        //}
 
 
         //InvalidOperationException must have exactly one public method named 'InvokeAsync' or 'Invoke'.
