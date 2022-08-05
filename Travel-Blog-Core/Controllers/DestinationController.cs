@@ -15,9 +15,11 @@ namespace Travel_Blog_Core.Controllers
 
             return View(values);
         }
-
+        [HttpGet]
         public IActionResult DestinationDetails(int id)
         {
+            ViewBag.i = id;
+            
             var values = destinationManager.TGetByID(id);
             
 
