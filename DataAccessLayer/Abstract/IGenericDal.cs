@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,6 +21,9 @@ namespace DataAccessLayer.Abstract
         List<T> GetList();
         T GetByID(int id);
         //I had to pass a parameter ,by Id,to Destination Manager/Business Layer. 
+
+        List<T> GetListByFilter(Expression<Func<T,bool>> filter);
+        //Linq expression method that brings Comments by filters
 
     }
 }
