@@ -34,6 +34,7 @@ namespace Travel_Blog_Core.Controllers
                 UserName = p.Username
 
             };
+
             if (p.Password == p.ConfirmPassword)
             {
                 var result = await _userManager.CreateAsync(appUser);
