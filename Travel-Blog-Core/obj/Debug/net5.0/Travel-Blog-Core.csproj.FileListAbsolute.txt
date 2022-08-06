@@ -181,3 +181,4 @@ C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\bin\Debug\net5.0
 C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\staticwebassets\Travel-Blog-Core.StaticWebAssets.xml
 C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Login\SignUp.cshtml.g.cs
+C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Login\SignIn.cshtml.g.cs
