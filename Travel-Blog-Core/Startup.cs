@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Travel_Blog_Core.Models;
 
 namespace Travel_Blog_Core
 {
@@ -30,9 +31,12 @@ namespace Travel_Blog_Core
         {
             //Adding CONTEXT to IDENTITY
             services.AddDbContext<Context>();
-            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>();
+            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>()
+                .AddErrorDescriber<CostumIdentityValidator>()
+                .AddEntityFrameworkStores<Context>();
            
             services.AddControllersWithViews();
+
             services.AddMvc(config =>
             {
                 //lets only authoticanted users to access
