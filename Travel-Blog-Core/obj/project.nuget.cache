@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uA3d/eeQYC9GflY89VhASSrmtw2RMeaaUdqEDAbBOom4V/WuHO0To3QmxVkXbdRYsEzCnttmwDrPnRJwdMIi5w==",
+  "dgSpecHash": "dz2qfRAfBqMeZpl5xwE9QSGzeV0bdSDw8d2zNovWg8XNkZrBiVrcwsW0C3GssgC2K4u1nnwXnLcHeC48ctQBOQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Şoreş\\source\\repos\\Travel-Blog-Core\\Travel-Blog-Core\\Travel-Blog-Core.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\Şoreş\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.12\\microsoft.aspnetcore.cryptography.internal.5.0.12.nupkg.sha512",
     "C:\\Users\\Şoreş\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.12\\microsoft.aspnetcore.cryptography.keyderivation.5.0.12.nupkg.sha512",
     "C:\\Users\\Şoreş\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Şoreş\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.12\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.12.nupkg.sha512",
     "C:\\Users\\Şoreş\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\5.0.12\\microsoft.aspnetcore.identity.ui.5.0.12.nupkg.sha512",
     "C:\\Users\\Şoreş\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\Şoreş\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.0\\microsoft.aspnetcore.razor.language.5.0.0.nupkg.sha512",
