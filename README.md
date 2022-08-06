@@ -10,4 +10,7 @@ DYNAMIC AND IMMERSIVE TRAVEL FRIEND
 
 
 -Model-View-Controller and N Tier architecture have been used to buid.
-- 
+
+I have separated the solution into IU, EntityLayer, DataAccesLayer and BusinessLayer
+
+
