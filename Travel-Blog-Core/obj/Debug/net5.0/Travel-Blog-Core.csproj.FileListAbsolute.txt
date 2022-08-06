@@ -183,3 +183,6 @@ C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0
 C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Login\SignUp.cshtml.g.cs
 C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Login\SignIn.cshtml.g.cs
 C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Shared\_UserLayout.cshtml.g.cs
+C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Areas\Member\Views\Comment\Index.cshtml.g.cs
+C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\MemberLayoutPartial\_HeaderPartial.cshtml.g.cs
+C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\MemberLayoutPartial\_NavBarPartial.cshtml.g.cs
