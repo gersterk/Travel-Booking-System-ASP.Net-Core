@@ -5,11 +5,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Travel_Blog_Core.Areas.Member
 {
+    [AllowAnonymous]
     public class DestinationController : Controller
     {
         DestinationManager destinationManager = new DestinationManager(new EfDestinationDal());
 
-        [AllowAnonymous]
+        
         [Area("Member")]
         public IActionResult Index()
         {

@@ -81,7 +81,7 @@ namespace Travel_Blog_Core.Controllers
                 var result = await _signInManager.PasswordSignInAsync(p.Username, p.Password, false, true);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Destination");
+                    return RedirectToAction("Index", "Profile", new { area = "Member"});
                 }
                 else
                 {

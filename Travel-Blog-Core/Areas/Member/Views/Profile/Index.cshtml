@@ -1,0 +1,38 @@
+﻿@using Travel_Blog_Core.Areas.Member
+@model Travel_Blog_Core.Areas.Models.UserEditView
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h1>Profile</h1>
+
+<form method="post">
+    @Html.Label("Name")
+    <input type="text" asp-for="name" class="form-control"/>
+    <br />
+
+    @Html.Label("Surname")
+    <input type="text" asp-for="surname" class="form-control"/>
+    <br />
+
+    @Html.Label("Mail Adress")
+    <input type="text" asp-for="mail" class="form-control"/>
+    <br />
+
+    @Html.Label("Password")
+    <input type="text" asp-for="password" class="form-control"/>
+    <br />
+
+    @Html.Label("Password Confirm")
+    <input type="text" asp-for="confirmpassword" class="form-control"/>
+    <br />
+
+    @Html.Label("Phone")
+    <input type="text" asp-for="phone" class="form-control"/>
+    <br />
+
+
+
+
+</form>

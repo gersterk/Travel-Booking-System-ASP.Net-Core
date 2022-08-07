@@ -376,7 +376,6 @@
 
   <ItemGroup>
     <Folder Include="Areas\Member\Data\" />
-    <Folder Include="Areas\Member\Models\" />
     <Folder Include="wwwroot\dashboard\.git\objects\info\" />
     <Folder Include="wwwroot\dashboard\.git\objects\pack\" />
     <Folder Include="wwwroot\dashboard\.git\refs\tags\" />
