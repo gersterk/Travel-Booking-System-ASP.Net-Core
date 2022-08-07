@@ -2,10 +2,12 @@
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Travel_Blog_Core.Areas.Member.Controllers
 {
@@ -18,6 +20,14 @@ namespace Travel_Blog_Core.Areas.Member.Controllers
         //that will help to list the destinations
 
         ReservationManager reservationManager = new ReservationManager(new EfReservationDal());
+
+        private readonly UserManager<AppUser> _userManager;
+
+        public ReservationController(UserManager<AppUser> userManager)
+        {
+            this._userManager = userManager;
+        }
+
         public IActionResult MyCurrentReservation()
         {
             return View();
@@ -27,6 +37,14 @@ namespace Travel_Blog_Core.Areas.Member.Controllers
         public IActionResult MyPreviousReservation()
         {
             return View();
+
+        }
+
+        public async Task <IActionResult> MyPendingReservation()
+        {
+            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+            var valuesList = reservationManager.GetListPendingReservation(values.Id);
+            return View(valuesList);
 
         }
 
