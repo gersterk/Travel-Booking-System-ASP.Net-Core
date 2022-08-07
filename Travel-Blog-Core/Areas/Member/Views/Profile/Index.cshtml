@@ -7,7 +7,8 @@
 
 <h1>Profile</h1>
 
-<form method="post">
+<form method="post" enctype="multipart/form-data">
+
     @Html.Label("Name")
     <input type="text" asp-for="name" class="form-control"/>
     <br />
@@ -32,7 +33,17 @@
     <input type="text" asp-for="phone" class="form-control"/>
     <br />
 
+    <div class="form-group">
+        <label>
+            Choose an image
+        </label>
+        <input type="file" asp-for="Image" />
 
+    </div>
+    <br />
+    <button class="btn btn-primary">
+        Update
+    </button>
 
 
 </form>

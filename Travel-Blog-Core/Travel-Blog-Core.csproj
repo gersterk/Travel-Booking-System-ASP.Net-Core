@@ -379,6 +379,7 @@
     <Folder Include="wwwroot\dashboard\.git\objects\info\" />
     <Folder Include="wwwroot\dashboard\.git\objects\pack\" />
     <Folder Include="wwwroot\dashboard\.git\refs\tags\" />
+    <Folder Include="wwwroot\userimages\" />
   </ItemGroup>
 
 </Project>
