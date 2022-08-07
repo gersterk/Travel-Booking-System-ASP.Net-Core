@@ -43,7 +43,7 @@ using Travel_Blog_Core.Areas.Member;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8fb129b7a2979cf275e9ac5c1fd8260c2f904ea4", @"/Areas/Member/Views/Profile/Index.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"095a4c245f3b6871b137e76482bfa214d07060d4", @"/Areas/Member/Views/_ViewImports.cshtml")]
     #nullable restore
-    public class Areas_Member_Views_Profile_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Travel_Blog_Core.Areas.Member.Models.UserEditView>
+    public class Areas_Member_Views_Profile_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Travel_Blog_Core.Areas.Models.UserEditView>
     #nullable disable
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("type", "text", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -341,7 +341,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
         #nullable disable
         #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<Travel_Blog_Core.Areas.Member.Models.UserEditView> Html { get; private set; } = default!;
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<Travel_Blog_Core.Areas.Models.UserEditView> Html { get; private set; } = default!;
         #nullable disable
     }
 }

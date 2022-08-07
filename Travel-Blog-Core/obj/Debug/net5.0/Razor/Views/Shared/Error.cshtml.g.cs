@@ -36,7 +36,7 @@ using EntityLayer.Concrete;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d6a5625cc8fb4476f348b0fe9041c550465d8bf9", @"/Views/Shared/Error.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b9ae2280fa5d9cdcf57df7b7a2f7c4530b746822", @"/Views/_ViewImports.cshtml")]
     #nullable restore
-    public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Travel_Blog_Core.Models.ErrorViewModel>
+    public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     #nullable disable
     {
         #pragma warning disable 1998
@@ -107,7 +107,7 @@ using EntityLayer.Concrete;
         #nullable disable
         #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<Travel_Blog_Core.Models.ErrorViewModel> Html { get; private set; } = default!;
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<ErrorViewModel> Html { get; private set; } = default!;
         #nullable disable
     }
 }
