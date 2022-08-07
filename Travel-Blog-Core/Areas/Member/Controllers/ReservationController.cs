@@ -1,13 +1,15 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace Travel_Blog_Core.Areas.Member.Controllers
-{ 
+{
+    [AllowAnonymous]
     [Area("Member")]
     public class ReservationController : Controller
     {
@@ -22,7 +24,7 @@ namespace Travel_Blog_Core.Areas.Member.Controllers
 
         }
 
-        public IActionResult MyPreviousResevertaion()
+        public IActionResult MyPreviousReservation()
         {
             return View();
 
@@ -46,10 +48,9 @@ namespace Travel_Blog_Core.Areas.Member.Controllers
         [HttpPost]
         public IActionResult NewReservation(Reservation p)
         {
-            p.AppUserId = 3;
-
+            p.AppUserId = 1;
+            p.Status = "Pending...";
             reservationManager.TAdd(p);
-
             return RedirectToAction("MyCurrentReservation");
         }
     }
