@@ -13,14 +13,13 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfReservationDal : GenericRepository<Reservation>, IReservationDal
     {
-        public List<Reservation> GetListWithReservationAccepted(int id)
+        public List<Reservation> GetListWithReservationPending(int id)
         {
             using (var context = new Context())
             {
                 return context.Reservations.Include(x => x.Destination).Where
-                    (x => x.Status == "Pending" && x.AppUserId==id ).ToList();
+                    (x => x.Status == "Pending" && x.AppUserId == id).ToList();
             }
-
         }
 
         public List<Reservation> GetListWithtReservationAccepted(int id)
