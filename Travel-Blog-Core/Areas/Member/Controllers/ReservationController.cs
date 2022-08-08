@@ -28,22 +28,26 @@ namespace Travel_Blog_Core.Areas.Member.Controllers
             this._userManager = userManager;
         }
 
-        public IActionResult MyCurrentReservation()
+        public async Task <IActionResult> MyCurrentReservation()
         {
-            return View();
+            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+            var valuesList = reservationManager.GetListWithReservationAccepted(values.Id);
+            return View(valuesList);
 
         }
 
-        public IActionResult MyPreviousReservation()
+        public async Task <IActionResult> MyPreviousReservation()
         {
-            return View();
+            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+            var valuesList = reservationManager.GetListWithReservationPrevious(values.Id);
+            return View(valuesList);
 
         }
 
         public async Task <IActionResult> MyPendingReservation()
         {
             var values = await _userManager.FindByNameAsync(User.Identity.Name);
-            var valuesList = reservationManager.GetListPendingReservation(values.Id);
+            var valuesList = reservationManager.GetListWithReservationPending(values.Id);
             return View(valuesList);
 
         }

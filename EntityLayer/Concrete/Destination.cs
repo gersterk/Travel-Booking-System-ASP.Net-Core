@@ -33,6 +33,8 @@ namespace EntityLayer.Concrete
         //That property relates the Comments to Destinations.
         //Because each destination will have its comments seperately...
 
+        public List<Reservation> Reservations { get; set; }
+
 
 
 
