@@ -9,6 +9,23 @@
 -Can book a vacation.
 
 
+✔ The websites serve three side of UI... 
+-Guest UI 
+-Member UI / Dashboard
+-Admin UI / Dashboard
+
+
+
+
+Member UI---
+
+Profile settings 
+Mail automation
+Two-factor verification
+Access to change the tours by their profile 
+
+
+
 # Model-View-Controller and N Tier architecture have been used to buid.
 
 ✔ I have separated the solution into IU, EntityLayer, DataAccesLayer and BusinessLayer
@@ -37,6 +54,23 @@ Comments To Destinations
 IDENTITY Relations                     (Diagram is below)
 
 Roles,RoleClaims,UserRoles,Users,UserTokens,UserClaims
+
+
+
+The website serve 3 side of UI... 
+-Guest UI 
+-Member UI / Dashboard
+-Admin UI / Dashboard
+
+
+
+
+Member UI---
+
+Profile settings 
+Mail automation
+Two-factor verification
+Access to change the tours by their profile 
 
 
 
