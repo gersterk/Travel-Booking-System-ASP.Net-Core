@@ -26,6 +26,7 @@ namespace Travel_Blog_Core.ViewComponents.MemberDashboard
             return View();
 
         }
+        
 
     }
    
