@@ -57,20 +57,6 @@ Roles,RoleClaims,UserRoles,Users,UserTokens,UserClaims
 
 
 
-The website serve 3 side of UI... 
--Guest UI 
--Member UI / Dashboard
--Admin UI / Dashboard
-
-
-
-
-Member UI---
-
-Profile settings 
-Mail automation
-Two-factor verification
-Access to change the tours by their profile 
 
 
 
