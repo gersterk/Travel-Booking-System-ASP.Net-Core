@@ -12,7 +12,6 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-    using Travel_Blog_Core.Areas.Member.Models;
 #nullable restore
 #line 1 "C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\Areas\Member\Views\_ViewImports.cshtml"
 using Travel_Blog_Core;

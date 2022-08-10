@@ -8,6 +8,7 @@ using Travel_Blog_Core.Models;
 namespace Travel_Blog_Core.Controllers
 {
     [AllowAnonymous]
+
     public class LoginController : Controller
     {
         private readonly UserManager<AppUser> _userManager;

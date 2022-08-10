@@ -1,6 +1,5 @@
 ﻿
 <!--=====================LOGIN=====================LOGIN=====================================================-->	
-@using Travel_Blog_Core.Models
 @model Travel_Blog_Core.Models.UserSignInModel
 
 <!DOCTYPE html>
@@ -41,7 +40,8 @@
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text" name="UserName" placeholder="Username">
+						<input class="input100" type="text" asp-for="Username" placeholder="Username">
+						<span asp-validation-for="Username"></span>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -49,7 +49,8 @@
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" name="Password" placeholder="Password">
+						<input class="input100" type="password" asp-for="Password" placeholder="Password">
+						<span asp-validation-for="Password"></span>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
