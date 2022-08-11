@@ -1,4 +1,7 @@
-﻿
+﻿@{
+	Layout =null;
+
+}
                                               @*REGISTER
 
 *@
@@ -26,7 +29,7 @@
 					<h3>New Account</h3>
 					<div class="form-holder">
 						<span class="lnr lnr-user"></span>
-						<input type="text" class="form-control" placeholder="Name" name="Name">
+						<input type="text"  class="form-control" placeholder="Name" name="Name">
 					</div>
 					<div class="form-holder">
 						<span class="lnr lnr-user"></span>
@@ -38,7 +41,7 @@
 					</div>
 					<div class="form-holder">
 						<span class="lnr lnr-phone-handset"></span>
-						<input type="text" class="form-control" placeholder="Username" name="UserName">
+						<input type="text" class="form-control" placeholder="Username" name="Username">
 					</div>
 				
 					<div class="form-holder">
@@ -50,11 +53,11 @@
 						<input type="password" class="form-control" placeholder="Confirm Password" name="ConfirmPassword">
 					</div>
 
-					<div class="text-danger" asp-validation-summary="ModelOnly">
+@*					<div class="text-danger" asp-validation-summary="ModelOnly">
 						
 					</div>
 
-
+*@
 					<button>
 						<span>Register</span>
 					</button>
