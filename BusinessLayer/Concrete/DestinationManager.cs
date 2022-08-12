@@ -41,7 +41,12 @@ namespace BusinessLayer.Concrete
 
         public void TUpdate(Destination t)
         {
+
             throw new NotImplementedException();
+
+
+            //return _destinationDal.Update();
+
         }
 
         public Destination GetByID(int id)

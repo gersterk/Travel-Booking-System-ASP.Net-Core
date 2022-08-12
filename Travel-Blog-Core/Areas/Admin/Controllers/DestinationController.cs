@@ -1,6 +1,8 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace Travel_Blog_Core.Areas.Admin.Controllers
 {
@@ -15,5 +17,45 @@ namespace Travel_Blog_Core.Areas.Admin.Controllers
 
             return View(values);
         }
+
+        [HttpGet]
+        public IActionResult AddDestination()
+        {
+            return View();
+
+        }
+
+        [HttpPost]
+        public IActionResult AddDestination(Destination destination)
+        {
+            destinationManager.TAdd(destination);
+            return RedirectToAction("Index");
+
+        }
+        public IActionResult DeleteDestination(int id)
+        {
+            var values = destinationManager.TGetByID(id);
+            destinationManager.TDelete(values);
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult UpdateDestination(int id)
+        {
+
+            var values = destinationManager.TGetByID(id);
+            return View(values);
+
+        }
+
+        [HttpPost]
+        public IActionResult UpdateDestination(Destination destination)
+        {
+
+            destinationManager.TUpdate(destination);
+            return RedirectToAction("Index");
+
+        }
+
     }
 }

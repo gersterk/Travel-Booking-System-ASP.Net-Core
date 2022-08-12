@@ -21,7 +21,7 @@ using Travel_Blog_Core;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\Areas\Member\Views\_ViewImports.cshtml"
-using Travel_Blog_Core.Models;
+using Travel_Blog_Core.Areas.Member.Models;
 
 #line default
 #line hidden
@@ -34,7 +34,7 @@ using EntityLayer.Concrete;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"beca475721e6316b151a72b15f1694340ad9fc4e", @"/Areas/Member/Views/Reservation/MyPreviousReservation.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"095a4c245f3b6871b137e76482bfa214d07060d4", @"/Areas/Member/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b9ae2280fa5d9cdcf57df7b7a2f7c4530b746822", @"/Areas/Member/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Member_Views_Reservation_MyPreviousReservation : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Reservation>>
     #nullable disable

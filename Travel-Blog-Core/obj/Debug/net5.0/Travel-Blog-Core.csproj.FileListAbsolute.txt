@@ -203,3 +203,6 @@ C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0
 C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Shared\Components\_PlatformSetting\Default.cshtml.g.cs
 C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
 C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Areas\Admin\Views\Destination\Index.cshtml.g.cs
+C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Areas\Admin\Views\Destination\AddDestination.cshtml.g.cs
+C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Areas\Admin\Views\Destination\UpdateDestination.cshtml.g.cs
+C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
