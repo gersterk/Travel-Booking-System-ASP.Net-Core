@@ -3,10 +3,6 @@
     Layout = null;
 }
 
-<!DOCTYPE html>
-
-
-<!DOCTYPE html>
 <html lang="en">
 
 @await Html.PartialAsync("/Views/MemberLayoutPartial/_HeaderPartial.cshtml")
@@ -21,11 +17,12 @@
 
     <div class="container-fluid py-4">
 
-@RenderBody()
+
 
 
 @await Html.PartialAsync("/Views/MemberLayoutPartial/_FooterPartial.cshtml")
 
+@RenderBody()
 
     </div>
   </main>
