@@ -27,11 +27,11 @@
             <td>@item.Price</td>
             <td>@item.Capacity</td>
             <td>@item.Description</td>
-            <td><a href="#" class="btn btn-outline-success">See</a></td>
-            <td><a href="#" class="btn btn-outline-info">Update</a></td>
-            <td><a href="#" class="btn btn-outline-danger">Delete</a></td>
+            <td><a href="/Destination/DestinationDetails/@item.DestinationID" class="btn btn-outline-success">See</a></td>
+            <td><a href="/Admin/Destination/UpdateDestination/@item.DestinationID" class="btn btn-outline-info">Update</a></td>
+            <td><a href="/Admin/Destination/DeleteDestination/@item.DestinationID" class="btn btn-outline-danger">Delete</a></td>
         </tr>
     }
 </table>
 
-<a href ="/Admin/Destination/AddDestination" class="btn btn-outline-primary">Create new destination</a>
+<a href ="/Admin/Destination/AddDestination" class="btn btn-outlinde-primary">Create new destination</a>

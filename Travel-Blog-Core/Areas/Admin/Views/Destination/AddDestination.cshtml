@@ -11,67 +11,70 @@
 
     <div class="form-group">
 
-    @Html.Label("City")
-    <input type="text" asp-for="City" class="form-control" />
+        @Html.Label("City")
+        <input type="text" asp-for="City" class="form-control" />
 
     </div>
+    <br />
+
 
     <div class="form-group">
 
-    @Html.Label("Duration")
-    <input type="text" asp-for="DayNight" class="form-control" />
+        @Html.Label("Duration")
+        <input type="text" asp-for="DayNight" class="form-control" />
 
     </div>
+    <br />
+    <div class="form-group">
+
+        @Html.Label("Price")
+        <input type="text" asp-for="Price" class="form-control" />
+
+    </div>
+    <br />
+    <div class="form-group">
+
+        @Html.Label("Image")
+        <input type="text" asp-for="Image" class="form-control" />
+
+    </div>
+    <br />
+    <div class="form-group">
+
+        @Html.Label("Capacity")
+        <input type="text" asp-for="Capacity" class="form-control" />
+
+    </div>
+    <br />
 
     <div class="form-group">
 
-    @Html.Label("Price")
-    <input type="text" asp-for="Price" class="form-control" />
+        @Html.Label("Price")
+        <input type="text" asp-for="Price" class="form-control" />
 
     </div>
-
+    <br />
     <div class="form-group">
 
-    @Html.Label("Image")
-    <input type="text" asp-for="Image" class="form-control" />
+        @Html.Label("Cover")
+        <input type="text" asp-for="CoverImage" class="form-control" />
 
     </div>
-
+    <br />
     <div class="form-group">
 
-    @Html.Label("Capacity")
-    <input type="text" asp-for="Capacity" class="form-control" />
+        @Html.Label("Main detail")
+        <textarea cols="30" rows="5" class="form-control" asp-for="Details1"></textarea>
 
     </div>
-
+    <br />
     <div class="form-group">
 
-    @Html.Label("Price")
-    <input type="text" asp-for="Price" class="form-control" />
+        @Html.Label("Sub detail")
+        <textarea cols="30" rows="5" class="form-control" asp-for="Details2"></textarea>
 
     </div>
-
-    <div class="form-group">
-
-    @Html.Label("Cover")
-    <input type="text" asp-for="CoverImage" class="form-control" />
-
-    </div>
-
-    <div class="form-group">
-
-    @Html.Label("Little View")
-    <textarea cols="30" rows="5" class="form-control" asp-for="Details1"></textarea>
-
-    </div>
-
-      <div class="form-group">
-
-    @Html.Label("Little View")
-    <textarea cols="30" rows="5" class="form-control" asp-for="Details2"></textarea>
-
-    </div>
-
+    <br />
 
     <button class="btn btn-success">Create</button>
 
