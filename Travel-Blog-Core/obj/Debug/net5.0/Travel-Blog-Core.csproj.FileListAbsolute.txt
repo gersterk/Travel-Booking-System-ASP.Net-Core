@@ -208,3 +208,7 @@ C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0
 C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Admin\PartialHeader.cshtml.g.cs
 C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Admin\PartialAppBrandDemo.cshtml.g.cs
+C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Admin\PartialSideBar.cshtml.g.cs
+C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Admin\PartialFooter.cshtml.g.cs
+C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Admin\PartialScript.cshtml.g.cs
+C:\Users\Şoreş\source\repos\Travel-Blog-Core\Travel-Blog-Core\obj\Debug\net5.0\Razor\Views\Admin\PartialNavBar.cshtml.g.cs
